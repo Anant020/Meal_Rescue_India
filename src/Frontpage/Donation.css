@@ -1,0 +1,42 @@
+
+  .formD {
+    color: rgb(71, 10, 10);
+    
+   width: 65%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+  }
+ .formD input{
+    border-radius: 10px;
+    
+ }
+  .select1{
+    width: 90px;
+    height: 30px;
+  }
+  .div1 {
+    margin-bottom: 20px;
+  }
+  
+  .inp {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .ab{
+    left: 560px;
+    top:2ch;
+    width: 30cm;
+  }
+  .shifter{
+    position: relative;
+    display: flex;
+    left: -210px;
+    font-weight: 600;
+    font-size: 21px;
+  }
+
+  
