@@ -26,7 +26,7 @@ export default function DesignsLayover() {
         <p className='logo1'>Meal Rescue India </p>
         <p className='logo2'>Meet India's new MRI not the one that scans bodies, but the one that feeds souls.<br />बचा हुआ खाना है? फिकर न करें!<b> 'मील रेस्क्यू इंडिया' </b>  की मदद से इसे किसी की जरूरत में दे</p>
         <p className='frontpara1'>
-          Join us in our mission to eliminate food waste and create a sustainable future for all . Whether you're a restaurant, a catering service, or an individual with excess food, your contribution can make a significant difference in someone's life.</p>
+          Join us in our mission to eliminate food waste and create a sustainable future for all. Whether you're a restaurant, a catering service, or an individual with excess food, your contribution can make a significant difference in someone's life.</p>
 
         <div className={"frontpara1 btn"}>
           <button className="button-82-pushable" onClick={donatebutton}>
@@ -48,6 +48,7 @@ export default function DesignsLayover() {
           <h2 className='logo3'>Our Mission </h2>
           <p className='missionpara'>
             We Believe a small change a create a big difference, Meal Rescue India is dedicated to alleviating hunger and reducing food waste in our communities . Our mission is to foster a culture of giving and sharing, ensuring that no edible food goes to waste. We believe in the power of community support and collaboration to create a sustainable and compassionate society. </p>
+          <br></br>
           <p className='missionpara'>For companies and organizations looking to partner with us, we offer a collaborative platform to contribute to our mission and make a meaningful impact in the lives of the underprivileged. </p>
         </div>
         <div className='btn2'>

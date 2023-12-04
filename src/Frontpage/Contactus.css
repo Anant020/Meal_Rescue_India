@@ -1,12 +1,16 @@
 .parac{
     margin-top: 18px;
-    width: 63%;
-    left: 60.3%; 
+    width: 58%;
+    left: 57.9%; 
     transform: translate(-50%, -50%); 
-    top: 27vh;
+    top: 34vh;
     font-size: 20px;
     position: relative;
-    display: block;
+    display: flex;
+   
+}
+.pc{
+    text-align: justify;
 }
 .logoc{
     transform: translate(-50%, -50%); 
@@ -60,7 +64,7 @@
     display: flex;
     position: relative;
     left: 39px;
-    top: -11px;
+    top: -10ch;
     border: solid 3px #3c87b9;
 }
 .btnc2{

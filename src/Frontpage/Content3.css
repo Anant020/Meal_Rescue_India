@@ -81,7 +81,7 @@ figure.slider img {
     display: block;
     text-shadow: 2px 2px #29158c;
     width: 78%;
-   
+    text-align: justify;
   
     transform: translate(-50%, -50%); /* This centers the div */
 }

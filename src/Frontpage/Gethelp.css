@@ -9,6 +9,19 @@
    left: 10px; 
    top: 40px;
 }
+.text1{
+  
+        font-size: 100px;
+        font-weight: 600;
+        color: #2980b9;
+        display: block;
+        position:relative;
+        width: 65%;
+        left: 57.7%; 
+        top: 21vh; 
+        transform: translate(-50%, -50%); /* This centers the div */
+    
+}
 .locations{
     display: inline-block;
     position: relative;

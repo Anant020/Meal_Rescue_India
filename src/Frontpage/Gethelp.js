@@ -32,7 +32,7 @@ export default function Gethelp() {
   return (
     <div>
       <div className='textplacer'>
-        <p className='logo1 '>Where are you located ?</p>
+        <p className='text1 '>Where are you located ?</p>
       </div>
 
       <div className='selectContainer scroll'>

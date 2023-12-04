@@ -49,17 +49,19 @@
   display: flex;
   position: relative;
   left: 10px;
-  width: 92%;
+  width: 90%;
+  text-align: justify;
 }
 
 .frontpara1{
-    width: 61%;
-    left: 58.4%; 
+    width: 58%;
+    left: 56.8%; 
     transform: translate(-50%, -50%); 
     top: 21vh;
     font-size: 20px;
     position: relative;
     display: block;
+    text-align: justify;
 }
 .logo3{
     color: #2980b9;
