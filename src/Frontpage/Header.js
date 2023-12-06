@@ -9,6 +9,9 @@ export default function Header() {
       behavior: "smooth"
     });
   };
+  const ourcenter = () => {
+    navigate("/getsupport");
+  };
   return (
     <div>
 
@@ -17,7 +20,7 @@ export default function Header() {
       <div className="logo"><a href="/"> Meal Rescue India </a></div>
       <ul className="menu">
         <li><a href="/">Home</a></li>
-        <li><a href="/getsupport">Our Centers</a></li>
+        <li><a href="/getsupport" onClick={ourcenter}>Our Centers</a></li>
         <li><a href="/donatelogin">Donate</a></li>
         <li><a href="/contact">Contact Us </a></li>
         <li><a href="/admin">Administrator Panel</a></li>
