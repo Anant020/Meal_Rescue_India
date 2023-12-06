@@ -1,15 +1,14 @@
 import React from 'react'
-import { useState, useRef } from 'react'
+import { useState} from 'react'
 import img from "../Images/Surplus1.jpg"
 import { useNavigate } from 'react-router-dom'
 import "./Donatelogin.css"
 export default function Admin() {
     const [username, setusername] = useState('');
     const [password, setpassword] = useState('');
-    let stats = false;
+
     const navigate = useNavigate();
-    // const emaildata = useRef('');
-    // const passworddata = use
+
     const storeUserData = {
         email: username,
         pass: password
@@ -57,7 +56,7 @@ export default function Admin() {
                 </form>
             </div>
             <div>
-                <img src={img} alt="Image Placeholder" className='imageadmin' />
+                <img src={img} alt="ImagePlaceholder" className='imageadmin' />
             </div>
             <h5 className='admininfo'>मील रेस्क्यू इंडिया से सेवाओं का लाभ उठाने के लिए अपना उपयोगकर्ता आईडी और पासवर्ड दर्ज करें।</h5>
         </div>

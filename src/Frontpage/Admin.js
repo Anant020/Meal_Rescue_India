@@ -6,7 +6,6 @@ import "./Admin.css"
 export default function Admin() {
     const [username,setusername]= useState('');
     const [password,setpassword]= useState('');
-    let stats = false;
     const navigate = useNavigate();
     const formhandler=(event)=>{
         event.preventDefault();
@@ -44,7 +43,7 @@ export default function Admin() {
             </form>
         </div>
         <div>
-            <img src={img} alt="Image Placeholder" className='imageadmin'/>
+            <img src={img} alt="ImagePlaceholder" className='imageadmin'/>
         </div>
         <h5 className='admininfo'>कृपया व्यवस्थापक अपने क्रेडेंशियल्स दर्ज करें और लॉगिन करें।</h5>
     </div>

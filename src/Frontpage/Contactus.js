@@ -21,16 +21,13 @@ export default function Contactus() {
     };
   }, []);
 
- function formfetcher(){
-  fetch()
- }
   return (
     <div>
       <h1 style={{ textAlign: 'center' }} className='logoc'>Contact us</h1>
      
         <img className='imgc'
           src={box}
-          alt="MRI INDIA CONTACT US IMAGE"
+          alt="MRI_INDIA_CONTACT_US_IMAGE"
         />
         
        
