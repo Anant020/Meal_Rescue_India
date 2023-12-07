@@ -63,8 +63,8 @@ export default function AdminDisplay() {
             <h1>{item.location}</h1>
           </div>
           <button
-            key={`decline-${item.key}`} // Add a unique key prop here
-            onClick={() => { handleDecline(item.key); }}
+            key={`decline-${item.id}`} // Add a unique key prop here
+            onClick={() => { handleDecline(item.id); }}
             className='button-68'
             style={{ backgroundColor: '#C20114' }}
           >

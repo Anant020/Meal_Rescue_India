@@ -19,11 +19,11 @@ export default function Header() {
     <div className="navbar">
       <div className="logo"><a href="/"> Meal Rescue India </a></div>
       <ul className="menu">
-        <li><a href="/">Home</a></li>
-        <li><a href="/getsupport" onClick={ourcenter}>Our Centers</a></li>
-        <li><a href="/donatelogin">Donate</a></li>
-        <li><a href="/contact">Contact Us </a></li>
-        <li><a href="/admin">Administrator Panel</a></li>
+        <li><a onClick={()=>{navigate("/")}}>Home</a></li>
+        <li><a onClick={ourcenter}>Our Centers</a></li>
+        <li><a onClick={()=>{navigate("/donatelogin")}}>Donate</a></li>
+        <li><a onClick={()=>{navigate("/contact")}}>Contact Us </a></li>
+        <li><a onClick={()=>{navigate("/admin")}}>Administrator Panel</a></li>
       </ul>
     </div>
   </nav>
