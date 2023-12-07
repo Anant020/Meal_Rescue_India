@@ -4,7 +4,7 @@ const Donation = () => {
 
   const [formState, setFormState] = useState({
    
-    location: 'indore',
+    location: 'indore-centre-1',
     food: '',
     expiry: '',
     quantity: '',
@@ -41,8 +41,8 @@ const Donation = () => {
         console.log('Data submitted successfully');
         setFormState({
           
-          location: 'indore',
-          food: '',
+          location: 'indore-centre-1',
+          food: '', 
           expiry: '',
           quantity: '',
           manufacturingDate: '',
@@ -77,17 +77,17 @@ const Donation = () => {
           onChange={handleChange}
           required
         >
-          <option value="Indore">Indore</option>
-          <option value="Ujjain">Ujjain</option>
-          <option value="Dewas">Dewas</option>
-          <option value="Bhopal">Bhopal</option>
+          <option value="indore-centre-1">indore-centre-1</option>
+          <option value="indore-centre-2">indore-centre-2</option>
+          <option value="indore-centre-3">indore-centre-3</option>
+          <option value="indore-centre-3">indore-centre-4</option>
         </select>
         
       </div>
       
       <div className="div1">
         <br />
-        <label htmlFor="food">Food Type: </label>
+        <label htmlFor="food">Food / Grocery Type : </label>
         <input
           type="text"
           id="food"
@@ -102,7 +102,7 @@ const Donation = () => {
       
           
       <div className="div1">
-        <label htmlFor="manufacturingDate">Date of Manufacturing: </label>
+        <label htmlFor="manufacturingDate">Date of Manufacturing : </label>
         <input
           type="date"
           required
@@ -116,7 +116,7 @@ const Donation = () => {
       </div>
 
       <div className="div1">
-        <label htmlFor="expiry">Expiry: </label>
+        <label htmlFor="expiry">Date of Expiry : </label>
         <input
           type="date"
           id="expiry"
@@ -130,7 +130,7 @@ const Donation = () => {
       </div>
      
       <div className="div1">
-        <label htmlFor="quantity">Quantity: </label>
+        <label htmlFor="quantity">Quantity : </label>
         <input
           type="number"
           id="quantity"
@@ -145,8 +145,8 @@ const Donation = () => {
   
      
       <div className="div1">
-        <label htmlFor="drop">I agree to the terms and will be responsible for delivering the food: </label>
-        <input style={{width:'40px', height:"20px"}}
+        <label htmlFor="drop">I agree to the terms and will be responsible for delivering the food at {formState.location}: </label>
+        <input style={{ transform:"scale(2)", marginLeft:"10px"}}
           type="checkbox"
           id="drop"
           name="drop"
