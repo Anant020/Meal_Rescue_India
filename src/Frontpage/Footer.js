@@ -5,7 +5,7 @@ export default function Footer() {
     <div>
       <footer>
   <div className="copyright">
-    <p>© Made by Anant Shah, Ansh Saxena, Khushal Vyas, Yuvraj Sharma</p>
+    <p>© Made by Anant Shah</p>
   </div>
   <div className="social">
     <a href="/contact" className="support">Contact Us</a>
